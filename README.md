@@ -57,3 +57,17 @@ During development, you can leverage Docker volumes to mount your local applicat
 
 ## Conclusion
 Congratulations! You have successfully created and deployed a Flask application using Docker. Containerizing your application with Docker provides flexibility, portability, and scalability, making it easier to manage and deploy your Flask projects.
+
+## Downloading the Container Image
+To download the container image for this project, follow these steps:
+
+Open a terminal or command prompt on your local machine.
+
+Run the following command to pull the container image from Docker Hub:
+
+# docker pull subhaganesh/mark-app:latest
+ use the above command for download the docker app
+
+Wait for the download to complete. Docker will retrieve the image from the Docker Hub repository.
+
+Once the image is downloaded, you can use it to run the container locally on your machine.
