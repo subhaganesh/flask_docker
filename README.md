@@ -13,16 +13,16 @@ Follow these steps to create and deploy your Flask application using Docker:
 Clone this repository to your local machine by running the following command:
 
 
-git clone <repository-url>
+git clone repository-url
 
-Replace <repository-url> with the URL of your Git repository.
+Replace repository-url with the URL of your Git repository.
 
 ## Set Up Flask Application
 Navigate to the project directory:
 
-cd <project-directory>
+cd project-directory
 
-Replace <project-directory> 
+Replace project-directory
 with the name of the directory where you cloned the repository.
 
 Inside the project directory, set up your Flask application according to your project requirements. You can modify the existing Flask app or create a new one. Update the necessary dependencies in the requirements.txt file.
