@@ -36,14 +36,14 @@ Inside the project directory, set up your Flask application according to your pr
 Build the Docker image for your Flask application using the provided Dockerfile:
 
 
-docker build -t myflaskapp:latest
+docker build -t mark-app:latest
 
-This command builds the Docker image using the Dockerfile in the current directory and assigns it the tag myflaskapp:latest.
+This command builds the Docker image using the Dockerfile in the current directory and assigns it the tag mark-app:latest.
 
 ## Run the Docker Container
 Start a Docker container from the image you built:
 
-docker run -d -p 5000:5000 myflaskapp:latest
+docker run -d -p 5000:5000 mark-app:latest
 
 This command runs the Docker container in detached mode (-d) and maps port 5000 from the container to port 5000 on your local machine.
 
